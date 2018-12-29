@@ -1,0 +1,32 @@
+.root
+{
+ -fx-background-color: #10052D;
+ 
+}
+
+.button
+{
+ -fx-font-size: 15pt;
+ -fx-background-color: linear-gradient(#AC7E41, #FFC87E);
+}
+.button:hover
+{
+ -fx-background-color: linear-gradient(#FFC87E, #AC7E41);
+ -fx-border-color: black;
+ -fx-text-fill: "#718EA4";
+}
+
+.button:focused
+{
+-fx-border-style: solid;
+-fx-border-color: blue;
+-fx-font-family: cursive;
+}
+
+.label
+{
+ -fx-text-fill: #CFC7E7;
+ -fx-font-weight:bold;
+ -fx-font-size: 20pt;
+}
+
